@@ -34,7 +34,7 @@
 
     <properties>
         <maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
-        <camel.surefire.fork.additional-vmargs /><!-- Empty by default -->
+        <camel.surefire.fork.additional-vmargs/><!-- Empty by default -->
         <camel.surefire.fork.vmargs>-XX:+ExitOnOutOfMemoryError -XX:+HeapDumpOnOutOfMemoryError ${camel.surefire.fork.additional-vmargs}</camel.surefire.fork.vmargs>
         <camel.surefire.forkCount>1</camel.surefire.forkCount>
         <camel.surefire.forkTimeout>600</camel.surefire.forkTimeout>
@@ -43,10 +43,10 @@
         <camel.surefire.parallel.factor>1</camel.surefire.parallel.factor>
         <camel.surefire.parallel.strategy>dynamic</camel.surefire.parallel.strategy>
         <camel.failsafe.forkTimeout>600</camel.failsafe.forkTimeout>
-        <cxf.xjc.jvmArgs />
+        <cxf.xjc.jvmArgs/>
         <trimStackTrace>false</trimStackTrace>
-        <sourcecheckExcludes />
-        <sourcecheckExcludesComma />
+        <sourcecheckExcludes/>
+        <sourcecheckExcludesComma/>
 
         <!-- dependency versions -->
         <activemq-version>5.18.2</activemq-version>
@@ -237,7 +237,7 @@
         <jakarta-activation-version>2.1.2</jakarta-activation-version>
         <jakarta-annotation-api-version>2.1.1</jakarta-annotation-api-version>
         <jakarta-servlet-api-version>6.0.0</jakarta-servlet-api-version>
-        <jakarta-enterprise-cdi-api-version>4.0.1</jakarta-enterprise-cdi-api-version>
+        <jakarta-enterprise-cdi-api-version>4.1.0</jakarta-enterprise-cdi-api-version>
         <jakarta-inject-version>2.0.1</jakarta-inject-version>
         <jakarta-xml-bind-api-version>4.0.0</jakarta-xml-bind-api-version>
         <jakarta-xml-soap-api-version>3.0.0</jakarta-xml-soap-api-version>
